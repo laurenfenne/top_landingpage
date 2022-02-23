@@ -7,12 +7,14 @@ body {
   }
 
 h1 {
-    font-size: 3em;
+    font-size: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 h3 {
     font-size: 22px;
-    margin-bottom: 05px;
+    margin-bottom: 5px;
 }
  
 ul {
@@ -43,6 +45,7 @@ a {
     border-radius: 5px;
     width: 200px;
     text-align: center;
+    margin-top: 10px;
     padding: 10px 12px;
     transition: background-color 200ms ease-in-out;
 }
@@ -56,11 +59,12 @@ a {
     color: #3882F6;
 }
 
+
 .logo {
     display: flex;
     align-items: center;
     gap: 16px;
-    font-size: 1.35em;
+    font-size: 24px;
     font-weight: bolder;
 }
 
@@ -98,27 +102,29 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 3% 15%;
-    gap: 100px;
+    gap: 50px;
 }
 
 .main-lhs{
-    flex: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .mainrick{
-    height: 375px;
     border-radius: 10px;
     box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.4);
 
 }
 
 .main-rhs {
+    border: 2px solid white;
     border-radius: 10px;
 
 }
 
 .main p{
-    font-size: 1.2em;
+    font-size: 17px;
 }
 
 .info
