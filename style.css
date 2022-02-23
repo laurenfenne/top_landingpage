@@ -9,6 +9,11 @@ body {
 h1 {
     font-size: 3em;
 }
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 05px;
+}
  
 ul {
      list-style-type: none;
@@ -19,6 +24,19 @@ ul {
 a {
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    padding: 8px;
+}
+
+.button.selected {
+    border: 2px solid #E5E7EB;
 }
 
 .logo {
@@ -57,7 +75,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 8% 15%;
+    padding: 3% 15%;
     gap: 100px;
 }
 
@@ -144,4 +162,38 @@ a {
     text-align: right;
     font-weight: bold;
     font-size: 24px;
+}
+
+.action {
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 15%;
+    margin-bottom: 20px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 175px;
+}
+
+.action-lhs{
+    display: flex;
+    flex-direction: column;
+ /*   margin-right: 50px;*/
+}
+
+.action-lhs p {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+action-rhs{
+    align-items: left;
 }
